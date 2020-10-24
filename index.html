@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<form action="confilm.php" method="post">
+  <ul>
+    <li class="top">
+      <h1>売上報告</h1>
+      <p>本日はお疲れさまでした！入力お願いします。</p>
+    </li>
+    <!-- 名前 -->
+    <li>
+      <label for="yourname">名前</label>
+      <p><input id="yourname" type="text" required></p>
+    </li>
+    <!-- 報告したい日 -->
+    <li>  
+    <label for="todaysdate">報告したい日</label>
+      <p><input id="todaysdate" type="date" required></p>
+    </li>
+    <!-- 現金 -->
+    <li>  
+    <label for="cash">現金</label>
+      <p><input id="cash" type="number" placeholder="数字を入力してください" required></p>
+    </li>
+    <!-- J-Mups合計 -->
+    <li>  
+    <label for="J-Mups">J-Mups合計</label>
+      <p><input id="J-Mups" type="number" placeholder="数字を入力してください" required></p>
+    </li>
+    <!-- LINEPAY -->
+    <li>  
+    <label for="linepay">LINEPAY</label>
+      <p><input id="linepay" type="number" placeholder="数字を入力してください" required></p>
+    </li>
+    <!-- 売上合計 -->
+    <li>  
+    <label for="earnings">売上合計</label>
+      <p><input id="earnings" type="number" placeholder="数字を入力してください" required></p>
+    </li>
+    <!-- POS -->
+    <li>  
+    <label for="pos">POS</label>
+      <p><input id="pos" type="number" placeholder="数字を入力してください" required></p>
+    </li>
+    <!-- 誤差 -->
+    <li>  
+    <label for="error">誤差</label>
+      <p><input id="error" type="number" placeholder="数字を入力してください" required></p>
+    </li>
+    <!-- 客数 -->
+    <li>  
+    <label for="customer">客数</label>
+      <p><input id="customer" type="number" placeholder="数字を入力してください" required></p>
+    </li>
+    <!-- 客単価 -->
+    <li>  
+    <label for="unitprice">客単価</label>
+      <p><input id="unitprice" type="number" placeholder="数字を入力してください" required></p>
+    </li>
+    <!-- 金庫入金額 -->
+    <li>  
+    <label for="deposit">金庫入金額</label>
+      <p><input id="deposit" type="number" placeholder="数字を入力してください" required></p>
+    </li>
+    <!-- 小口残高 -->
+    <li>  
+    <label for="pettycash">小口残高</label>
+      <p><input id="pettycash" type="number" placeholder="数字を入力してください" required></p>
+    </li>
+    <!-- 自由記述欄 -->
+    <li>  
+    <label for="freedescription">自由記述欄</label>
+      <p><textarea id="freedescription" type="text"></textarea></p>
+    </li>
+  </ul>
+    <button type="submit" class="btn">--送信--</button>
+  </form>
+  </div>
+</html>
